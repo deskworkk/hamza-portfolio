@@ -19,6 +19,22 @@
   overflow-wrap: break-word;
   word-break: normal;
 }
+ 
+.footer-inner {
+  display: flex !important;
+  flex-direction: row !important;
+  align-items: center !important;
+  justify-content: space-between !important;
+  flex-wrap: nowrap !important;
+  gap: 12px !important;
+}
+.footer-brand,
+.footer-motto,
+.footer-inner > div {
+  writing-mode: horizontal-tb !important;
+  white-space: nowrap !important;
+  width: auto !important;
+}
   
 </style>
 </head>
